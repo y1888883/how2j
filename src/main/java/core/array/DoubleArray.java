@@ -1,4 +1,4 @@
-package core.basis.array;
+package core.array;
 
 import java.util.Arrays;
 

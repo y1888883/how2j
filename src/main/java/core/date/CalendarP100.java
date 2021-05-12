@@ -1,4 +1,4 @@
-package core.basis.date;
+package core.date;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
