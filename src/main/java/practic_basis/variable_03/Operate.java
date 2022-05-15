@@ -1,4 +1,4 @@
-package practic_basis.variable;
+package practic_basis.variable_03;
 
 /**
  * @author: bamboo on 20/12/19

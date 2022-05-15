@@ -22,7 +22,6 @@ public class CompareDate {
 //            开始日期
             Date startDate = year.parse("20210515");
             Date endDate = year.parse("20210510");
-
 /*            String today = sdf.format(new Date());
 //            System.out.println(today);
             Date date = sdf.parse(today);
@@ -31,7 +30,8 @@ public class CompareDate {
             System.out.println(end.getTime());
             System.out.println(startDate);
             System.out.println(endDate);
-            if (!startDate.before(endDate) && !(start.getTime() > end.getTime())) {
+//            思考一下，签约日期要在生效日期前，生效日期yao
+            if (!todayDate.before(startDate) || !startDate.before(endDate) || !(start.getTime() > end.getTime())) {
                 System.out.println("false");
             }
         } catch (ParseException e) {

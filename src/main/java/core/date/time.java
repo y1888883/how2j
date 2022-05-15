@@ -17,10 +17,14 @@ public class time {
         String end = "20201009";
         String timeFormat = "hh:mm:ss";
         String dateFormat = "yyyy-mm-dd";
+        long time = System.currentTimeMillis();
+
         comepare(start, end, dateFormat);
 
-        SimpleDateFormat sdf = new SimpleDateFormat("hhmmss");
+        SimpleDateFormat sdf = new SimpleDateFormat("HHmmss");
         try {
+            String s = sdf.format(new Date());
+            System.out.println(s+"-----");
             Date oneDate = sdf.parse(one);
             Date towDate = sdf.parse(tow);
             long time1 = oneDate.getTime();

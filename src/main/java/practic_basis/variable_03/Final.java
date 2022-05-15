@@ -1,4 +1,4 @@
-package practic_basis.variable;
+package practic_basis.variable_03;
 
 /**
  * @author: bamboo on 20/12/21
@@ -9,6 +9,7 @@ public class Final {
     public static void main(String[] args) {
         int i = 0;
         i += method1(6);
+        System.out.println(i);
     }
 
 
